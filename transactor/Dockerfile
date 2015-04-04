@@ -2,7 +2,7 @@ FROM dockerfile/java:oracle-java8
 MAINTAINER marcandre.tr@gmail.com
 
 RUN ["mkdir", "-p", "/app/datomic-free"]
-RUN ["mkdir", "/datomic-data"]
+#RUN ["mkdir", "/datomic-data"]
 
 WORKDIR /app/datomic-free
 
