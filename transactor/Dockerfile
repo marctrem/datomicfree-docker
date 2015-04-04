@@ -12,5 +12,5 @@ ADD datomic-free/lib lib/
 ADD config.properties ./
 
 
-
+EXPOSE 4334
 CMD ["./bin/transactor", "config.properties"]
